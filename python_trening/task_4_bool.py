@@ -9,8 +9,12 @@ print(10 < 9)  # False
 
 b = ('abcd')
 c = ('abc')
-# a = (c < b)
-a = 10
+a = (c < b)
+# ещё варианты
+# a = 0  #False
+# a = 1 или a = -1 #True
+# a = 'a' #True
+# a = '' #False
 if a:
     print('a = True')
 else:

@@ -14,10 +14,10 @@ b[2] = 4
 print(b)
 
 test_list = ['один', 'два', 'три', 'четыре', 'пять']
-for elem in test_list: # Цикл по списку
+for elem in test_list:  # Цикл по списку
     print(elem)
 
-print(len(test_list)) # Длина списка
+print(len(test_list))  # Длина списка
 
-test_list.append('шесть') # Добавить элемент в конец списка
+test_list.append('шесть')  # Добавить элемент в конец списка
 print(test_list)
