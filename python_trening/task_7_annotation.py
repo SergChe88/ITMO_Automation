@@ -20,3 +20,13 @@ def max_list(m: list, n: list) -> int:
     return max(len(m), len(n))
 
 print(max_list((1, 2), (3, 4, 5)))
+
+def append_list(o: list, t: list) -> list:
+    return o.append(t)
+
+def sum_list(i: list) -> int:
+    g = 0
+    for elem in i:
+        g = g + elem
+
+print(sum_list([1, 2, 3, 4]))
