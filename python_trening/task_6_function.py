@@ -9,7 +9,7 @@ print(add(1, 2))
 # f = add(1, 2)
 # print(f)
 
-print(add('I a', 'tester'))
+print(add('I am', ' tester'))
 
 def arg(a, b, c=2, d=3):
     return a + b + c + d
